@@ -61,6 +61,13 @@ namespace BAI_1._2_BienLaGi
             var double1 = 8.6;
             var logic3 = true;
             var char1 = '5';
+
+
+            /*
+             * Bài 1: Khai báo mỗi kiểu dữ liệu khai báo một lần và có gán giá trị cho nó.
+             * - Khai báo 5 biến cùng kiểu dữ liệu trên 1 dòng.
+             */
+            string a, b, c="5", d, e;
         }
     }
 }

@@ -37,6 +37,7 @@ namespace BAI_1._1_LamQuenVoiCSharp
             Console.WriteLine("Chào mừng các bạn đến với C#1");
 
             //Console.ReadKey();
+            5 +5=
         }
     }
 }

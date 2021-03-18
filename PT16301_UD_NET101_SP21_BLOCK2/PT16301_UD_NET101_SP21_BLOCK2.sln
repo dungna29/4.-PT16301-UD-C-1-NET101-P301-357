@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAI_1.1_LamQuenVoiCSharp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAI_1.2_BienLaGi", "BAI_1.2_BienLaGi\BAI_1.2_BienLaGi.csproj", "{9E42B882-BBE0-4F3D-9313-E0337E06C600}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAI_1.3_NhapXuatGiaTriTuBanPhim", "BAI_1.3_NhapXuatGiaTriTuBanPhim\BAI_1.3_NhapXuatGiaTriTuBanPhim.csproj", "{6C4C9F11-7AAC-4A6A-8F32-5AE8244C09C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_1.4_EpKieu", "Bai_1.4_EpKieu\Bai_1.4_EpKieu.csproj", "{7BF1A955-5571-4701-B848-FC05EF6687DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{9E42B882-BBE0-4F3D-9313-E0337E06C600}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E42B882-BBE0-4F3D-9313-E0337E06C600}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E42B882-BBE0-4F3D-9313-E0337E06C600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4C9F11-7AAC-4A6A-8F32-5AE8244C09C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4C9F11-7AAC-4A6A-8F32-5AE8244C09C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4C9F11-7AAC-4A6A-8F32-5AE8244C09C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4C9F11-7AAC-4A6A-8F32-5AE8244C09C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF1A955-5571-4701-B848-FC05EF6687DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF1A955-5571-4701-B848-FC05EF6687DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF1A955-5571-4701-B848-FC05EF6687DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF1A955-5571-4701-B848-FC05EF6687DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

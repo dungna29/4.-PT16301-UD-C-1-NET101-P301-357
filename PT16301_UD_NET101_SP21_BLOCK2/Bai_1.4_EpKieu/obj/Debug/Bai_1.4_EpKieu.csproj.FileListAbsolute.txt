@@ -1,0 +1,6 @@
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.4_EpKieu\bin\Debug\Bai_1.4_EpKieu.exe.config
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.4_EpKieu\bin\Debug\Bai_1.4_EpKieu.exe
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.4_EpKieu\bin\Debug\Bai_1.4_EpKieu.pdb
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.4_EpKieu\obj\Debug\Bai_1.4_EpKieu.csproj.CoreCompileInputs.cache
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.4_EpKieu\obj\Debug\Bai_1.4_EpKieu.exe
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.4_EpKieu\obj\Debug\Bai_1.4_EpKieu.pdb
