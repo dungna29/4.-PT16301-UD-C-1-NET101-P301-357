@@ -27,6 +27,15 @@ namespace BAI_1._1_LamQuenVoiCSharp
             Console.OutputEncoding = Encoding.GetEncoding("UTF-8");
             //In ra màn hình        [cw + tab]
             Console.WriteLine("Chào mừng các bạn đến với C#1");
+            Console.WriteLine("Chào mừng các bạn đến với C#1");
+            Console.WriteLine("Chào mừng các bạn đến với C#1");
+            Console.WriteLine("Chào mừng các bạn đến với C#1");
+            Console.WriteLine("Chào mừng các bạn đến với C#1");
+            Console.WriteLine("Chào mừng các bạn đến với C#1");
+            Console.WriteLine("Chào mừng các bạn đến với C#1");
+            Console.WriteLine("Chào mừng các bạn đến với C#1");
+            Console.WriteLine("Chào mừng các bạn đến với C#1");
+
             //Console.ReadKey();
         }
     }
