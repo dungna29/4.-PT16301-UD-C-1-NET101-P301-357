@@ -1,0 +1,7 @@
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.9_ToanTuBaNgoi\bin\Debug\Bai_1.9_ToanTuBaNgoi.exe.config
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.9_ToanTuBaNgoi\bin\Debug\Bai_1.9_ToanTuBaNgoi.exe
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.9_ToanTuBaNgoi\bin\Debug\Bai_1.9_ToanTuBaNgoi.pdb
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.9_ToanTuBaNgoi\obj\Debug\Bai_1.9_ToanTuBaNgoi.csprojAssemblyReference.cache
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.9_ToanTuBaNgoi\obj\Debug\Bai_1.9_ToanTuBaNgoi.csproj.CoreCompileInputs.cache
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.9_ToanTuBaNgoi\obj\Debug\Bai_1.9_ToanTuBaNgoi.exe
+D:\Google Driver Dungna29\8. Demo\Demo C#1\SP21_Block2\4.-PT16301-UD-C-1-NET101-P301-357\PT16301_UD_NET101_SP21_BLOCK2\Bai_1.9_ToanTuBaNgoi\obj\Debug\Bai_1.9_ToanTuBaNgoi.pdb

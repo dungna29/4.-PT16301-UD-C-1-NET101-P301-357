@@ -44,6 +44,13 @@ namespace Bai_1._4_EpKieu
             Console.WriteLine("Mời bạn nhập năm hiện tại: ");
             year = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Năm hiện tại : " + year);
+              /*
+               Bài 1: Chương trình cho phép nhập họ và tên sinh viên, năm sinh, mã sinh viên từ bàn phím và xuất ra định dạng sau: 
+               “Chào bạn <<họ và tên>> | <<năm sinh>>  | <<mã sinh viên>> 
+               đến với chương trình Csharp1 đầu tiên.”
+
+                Bài 2: Nhập 3 đầu điểm Địa, Toán, Văn sau đó tính điểm trung bình của 3 đầu điểm đó.
+               */
         }
     }
 }
