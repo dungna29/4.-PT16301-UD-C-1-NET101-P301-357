@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_2.2_VongLap_Do_While", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_2.3_VongLap_For", "Bai_2.3_VongLap_For\Bai_2.3_VongLap_For.csproj", "{353F662E-95C6-4CB0-B712-CCE47F704936}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_2.4_Array", "Bai_2.3_Array\Bai_2.4_Array.csproj", "{11D005AB-3803-4444-86F6-F2601E25215B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_2.5_BaiTongHop", "Bai_2.5_BaiTongHop\Bai_2.5_BaiTongHop.csproj", "{09616CE2-9A55-4520-BB19-D770758EB787}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{353F662E-95C6-4CB0-B712-CCE47F704936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{353F662E-95C6-4CB0-B712-CCE47F704936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{353F662E-95C6-4CB0-B712-CCE47F704936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D005AB-3803-4444-86F6-F2601E25215B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D005AB-3803-4444-86F6-F2601E25215B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D005AB-3803-4444-86F6-F2601E25215B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D005AB-3803-4444-86F6-F2601E25215B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09616CE2-9A55-4520-BB19-D770758EB787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09616CE2-9A55-4520-BB19-D770758EB787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09616CE2-9A55-4520-BB19-D770758EB787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09616CE2-9A55-4520-BB19-D770758EB787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
