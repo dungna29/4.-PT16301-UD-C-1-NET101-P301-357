@@ -71,8 +71,7 @@ namespace Bai_2._3_Array
             {
                 Console.Write(x +" ");
             }
-            
-            
+
         }
     }
 }

@@ -51,6 +51,7 @@ namespace Bai_2._0_CauLenh_Switch_Case
             switch ("1")//Sử dụng chuỗi
             {
                 case "1":
+                   //Code chức năng
                     break;
                 case "2":
                     break;

@@ -40,16 +40,31 @@ namespace Bai_2._5_BaiTongHop
             Console.Write("Bạn muộn nhập bao nhiêu số: ");
             sizeArr = Convert.ToInt32(Console.ReadLine());//Lấy được kích thước mảng do người dùng nhập vào
             arrNumber = new int[sizeArr];//Khởi tạo kích thước mảng sau khi người dùng nhập vào
-            for (int i = 0; i < sizeArr; i++)
+            while (true)
             {
-                Console.WriteLine("Mời bạn nhập số thứ " + i);
-                arrNumber[i] = Convert.ToInt32(Console.ReadLine());//Gán giá trị cho mảng
-            }
-
-            Console.WriteLine("Dãy số bạn vừa nhập vào là: ");
-            foreach (var x in arrNumber)
-            {
-                Console.Write(x + " ");
+               
+                Console.WriteLine("1. Nhập số");
+                Console.WriteLine("2. Xuất số");
+                Console.WriteLine("Mời bạn chọn chức năng: ");
+                string input = Console.ReadLine();
+                switch (input)
+                {
+                    case "1":
+                        for (int i = 0; i < sizeArr; i++)
+                        {
+                            Console.WriteLine("Mời bạn nhập số thứ " + i);
+                            arrNumber[i] = Convert.ToInt32(Console.ReadLine());//Gán giá trị cho mảng
+                         
+                        }
+                        break;
+                    case "2":
+                        Console.WriteLine("Dãy số bạn vừa nhập vào là: ");
+                        foreach (var x in arrNumber)
+                        {
+                            Console.Write(x + " ");
+                        }
+                        break;
+                } 
             }
         }
     }
