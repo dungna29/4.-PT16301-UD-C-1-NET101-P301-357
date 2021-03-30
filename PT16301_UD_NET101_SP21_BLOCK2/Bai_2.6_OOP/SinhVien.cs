@@ -33,7 +33,7 @@ namespace Bai_2._6_OOP
             this.tuoi = tuoi;
            
         }
-        //Phần 3: Getter và Setter
+        //Phần 3: Property
         
         public string Ten
         {
