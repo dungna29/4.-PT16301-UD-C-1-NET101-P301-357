@@ -14,6 +14,7 @@ namespace BAI_TAP_MAU_OOP
             ServiceSinhVien servicesv = new ServiceSinhVien();
             // servicesv.bai1TaoDoiTuongSuDungContructor();
             servicesv.bai3TaoNhieuDoiTuongArray();
+            servicesv.inDsArraySinhVien();
         }
     }
 }

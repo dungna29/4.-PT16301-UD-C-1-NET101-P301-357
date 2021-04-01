@@ -8,6 +8,9 @@ namespace BAI_TAP_MAU_OOP
 {
     class ServiceSinhVien//Là nơi code các chứng năng của đối tượng
     {
+        //Biến toàn cục luôn khai báo trên đầu
+        int _input;
+        SinhVien[] _arrSinhViens;//Khai báo mảng Sinh Viên
         public ServiceSinhVien()
         {
             
@@ -50,28 +53,59 @@ namespace BAI_TAP_MAU_OOP
         //Tạo nhiều đối tượng sử dụng Array
         public void bai3TaoNhieuDoiTuongArray()
         {
-            int input;
-            SinhVien[] arrSinhViens;//Khai báo mảng Sinh Viên
+            
             Console.WriteLine("Bạn muốn thêm vào bao nhiêu sinh viên: ");
-            input = Convert.ToInt32(Console.ReadLine());
+            _input = Convert.ToInt32(Console.ReadLine());
             //Sau khi nhận được số lượng người dùng muốn
-            arrSinhViens = new SinhVien[input];//Khởi tạo mảng Sinh viên theo mong muốn người dùng
-            for (int i = 0; i < input; i++)
+            _arrSinhViens = new SinhVien[_input];//Khởi tạo mảng Sinh viên theo mong muốn người dùng
+            for (int i = 0; i < _input; i++)
             {
-                arrSinhViens[i] = new SinhVien();//KHởi tạo đối tượng tại index
+                _arrSinhViens[i] = new SinhVien();//KHởi tạo đối tượng tại index
                 Console.Write("Mời bạn nhập tên: ");
-                arrSinhViens[i].Ten = Console.ReadLine();
+                _arrSinhViens[i].Ten = Console.ReadLine();
                 Console.Write("Mời bạn nhập mã: ");
-                arrSinhViens[i].Msv = Console.ReadLine();
+                _arrSinhViens[i].Msv = Console.ReadLine();
                 Console.Write("Mời bạn nhập năm sinh: ");
-                arrSinhViens[i].NamSinh = Convert.ToInt32(Console.ReadLine());
+                _arrSinhViens[i].NamSinh = Convert.ToInt32(Console.ReadLine());
                 Console.Write("Mời bạn nhập điểm C#1: ");
-                arrSinhViens[i].DiemCsharp = Convert.ToDouble(Console.ReadLine());
+                _arrSinhViens[i].DiemCsharp = Convert.ToDouble(Console.ReadLine());
             }
             //arrSinhViens[i] = Giá trị đối tượng sinh viên ở vị trí thứ i
-            for (int i = 0; i < input; i++)
+           
+        }
+
+        public void inDsArraySinhVien()
+        {
+            if (_arrSinhViens.Length <0)
             {
-                arrSinhViens[i].inRaManHinh();//In từng sinh viên ra màn hình
+                return;
+            }
+            for (int i = 0; i < _arrSinhViens.Length; i++)
+            {
+                _arrSinhViens[i].inRaManHinh();//In từng sinh viên ra màn hình
+            }
+        }
+
+        public void themSinhVienList()
+        {
+            //Phần 1: Khai báo List SinhVien
+            List<SinhVien> lstSinhViens = new List<SinhVien>();
+            SinhVien sv1;
+            Console.WriteLine("Bạn muốn thêm vào bao nhiêu sinh viên: ");
+            _input = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < _input; i++)
+            {
+                sv1 = new SinhVien();
+                Console.Write("Mời bạn nhập tên: ");
+                sv1.Ten = Console.ReadLine();
+                Console.Write("Mời bạn nhập mã: ");
+                sv1.Msv = Console.ReadLine();
+                Console.Write("Mời bạn nhập năm sinh: ");
+                sv1.NamSinh = Convert.ToInt32(Console.ReadLine());
+                Console.Write("Mời bạn nhập điểm C#1: ");
+                sv1.DiemCsharp = Convert.ToDouble(Console.ReadLine());
+                // Thêm đối tượng vào danh sách
+                lstSinhViens.Add(sv1);
             }
         }
     }
