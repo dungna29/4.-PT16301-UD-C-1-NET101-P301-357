@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Bai_2._9_PhuongThu_Method;
@@ -33,6 +34,7 @@ namespace Bai_2._9_PhuongThuc_Method
 
         PHƯƠNG THỨC KHÔNG ĐƯỢC TRÙNG TÊN NHƯNG ĐƯỢC PHÉP TRÙNG TÊN VÀ KHÁC THAM SỐ
        */
+        private int a;
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.GetEncoding("UTF-8");
@@ -59,14 +61,25 @@ namespace Bai_2._9_PhuongThuc_Method
 
             #region Phần 2: Phương thức trả về
             /*
-             * Lưu ý: Phải coi phương thức trả về là giá trị hoặc tập trị
-             */
+             * Lưu ý: Phải coi phương thức trả về là giá trị hoặc tập trị....
+             *
+             * */
 
             //ptTraVe.tinhTong();//Khi nó là giá trị không thể tự in chính nó
-            Console.WriteLine(ptTraVe.tinhTong());//ptTraVe.tinhTong() có kiểu dữ liệu in và nó là giá trị sau khi tính toán
+            //Console.WriteLine(ptTraVe.tinhTong());//ptTraVe.tinhTong() có kiểu dữ liệu in và nó là giá trị sau khi tính toán
 
+
+            //Sử dụng phương thức trả về là 1 mảng
+            string[] temparr = ptTraVe.getYears();
+            foreach (var x in ptTraVe.getYears())
+            {
+                Console.WriteLine(x + " ");
+            }
+
+            //Sử dụng phương thức trả về là 1 đối tượng
+            ptTraVe.getSV().inRaManHinh();
             #endregion
-
+            
         }
     }
 }

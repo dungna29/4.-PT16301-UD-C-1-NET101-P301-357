@@ -96,17 +96,10 @@ namespace BAI_TAP_MAU_OOP
             for (int i = 0; i < _input; i++)
             {
                 sv1 = new SinhVien();
-                // Console.Write("Mời bạn nhập tên: ");
-                // sv1.Ten = Console.ReadLine();
-                // Console.Write("Mời bạn nhập mã: ");
-                // sv1.Msv = Console.ReadLine();
-                // Console.Write("Mời bạn nhập năm sinh: ");
-                // sv1.NamSinh = Convert.ToInt32(Console.ReadLine());
-                // Console.Write("Mời bạn nhập điểm C#1: ");
-                // sv1.DiemCsharp = Convert.ToDouble(Console.ReadLine());
-                // Thêm đối tượng vào danh sách
-                sv1.Ten = input("Nhập tên");
-                sv1.NamSinh = Convert.ToInt32(input("Nhập năm sinh"));
+                sv1.Ten = input("Nhập tên ");
+                sv1.Msv = input("Nhập mã ");
+                sv1.NamSinh = Convert.ToInt32(input(" nhập năm sinh "));
+                sv1.DiemCsharp = Convert.ToDouble(input("nhập điểm "));
                 lstSinhViens.Add(sv1);
             }
         }

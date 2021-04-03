@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -31,10 +32,11 @@ namespace Bai_2._6_OOP
             this.msv = msv;
             this.queQuan = queQuan;
             this.tuoi = tuoi;
-           
+            //this dùng để tham chiếu đến thuộc tính, biến, phương thức của lớp hiện tại
+
         }
         //Phần 3: Property
-        
+
         public string Ten
         {
             get => ten;
@@ -69,6 +71,8 @@ namespace Bai_2._6_OOP
         public void inThongTinSinhVien()
         {
             Console.WriteLine("Tên: {0} - Mã: {1} - Quê: {2} - Tuổi {3} - Trường: {4}",ten,msv,queQuan,tuoi,school);
+            
         }
+      
     }
 }
