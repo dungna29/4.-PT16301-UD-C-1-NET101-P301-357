@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_2.9_PhuongThuc_Method",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_3.0_OOP_TinhKeThua", "Bai_3.0_OOP_TinhKeThua\Bai_3.0_OOP_TinhKeThua.csproj", "{2757E3D2-689D-4585-9901-63EE70E187A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_3.1_LINQ_COBAN", "Bai_3.1_LINQ_COBAN\Bai_3.1_LINQ_COBAN.csproj", "{C424D97D-A4B3-4499-9E09-5F81ED75BC5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{2757E3D2-689D-4585-9901-63EE70E187A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2757E3D2-689D-4585-9901-63EE70E187A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2757E3D2-689D-4585-9901-63EE70E187A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C424D97D-A4B3-4499-9E09-5F81ED75BC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C424D97D-A4B3-4499-9E09-5F81ED75BC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C424D97D-A4B3-4499-9E09-5F81ED75BC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C424D97D-A4B3-4499-9E09-5F81ED75BC5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

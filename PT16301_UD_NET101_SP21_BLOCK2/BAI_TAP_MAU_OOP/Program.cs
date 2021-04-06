@@ -15,6 +15,15 @@ namespace BAI_TAP_MAU_OOP
             // servicesv.bai1TaoDoiTuongSuDungContructor();
             servicesv.bai3TaoNhieuDoiTuongArray();
             servicesv.inDsArraySinhVien();
+            while (true)
+            {
+               
+
+
+
+
+
+            }
         }
     }
 }
