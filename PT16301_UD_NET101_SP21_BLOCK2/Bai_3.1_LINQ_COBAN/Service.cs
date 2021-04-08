@@ -72,6 +72,7 @@ namespace Bai_3._1_LINQ_COBAN
                 }
             }
             //Cách 2: Dùng LINQ 
+            lsSinhViens.RemoveAt(lsSinhViens.FindIndex(c=>c.Msv == msv));
         }
     }
 }
