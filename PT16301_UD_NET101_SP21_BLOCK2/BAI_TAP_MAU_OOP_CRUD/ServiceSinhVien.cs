@@ -136,6 +136,7 @@ namespace BAI_TAP_MAU_OOP_CRUD
                 x.inRaManHinh();
             }
         }
+
         //Phương thức trả ra index dựa vào mã sinh viên nhập vào
         public int getIndexSV(string msv)
         {

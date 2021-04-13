@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_3.1_LINQ_COBAN", "Bai_3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAI_TAP_MAU_OOP_CRUD", "BAI_TAP_MAU_OOP_CRUD\BAI_TAP_MAU_OOP_CRUD.csproj", "{49D4C96B-3404-48F7-A90F-CF57580D0D1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAI_3.2_XuLyString", "BAI_3.2_XuLyString\BAI_3.2_XuLyString.csproj", "{2993CC91-D1A6-48BC-BECB-89B5055783BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{49D4C96B-3404-48F7-A90F-CF57580D0D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49D4C96B-3404-48F7-A90F-CF57580D0D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49D4C96B-3404-48F7-A90F-CF57580D0D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2993CC91-D1A6-48BC-BECB-89B5055783BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2993CC91-D1A6-48BC-BECB-89B5055783BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2993CC91-D1A6-48BC-BECB-89B5055783BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2993CC91-D1A6-48BC-BECB-89B5055783BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
