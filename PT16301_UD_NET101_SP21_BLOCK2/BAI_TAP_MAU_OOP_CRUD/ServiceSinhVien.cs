@@ -150,5 +150,17 @@ namespace BAI_TAP_MAU_OOP_CRUD
             }
             return -1;//Không thìm thấy thì trả về -1
         }
+
+        public void sort()
+        {
+            //Cách 1: Sắp xếp ngầm 1 List
+            var lsttemp = _lstStudents.OrderBy(c => c.DiemCharp).ToList();
+            _lstStudents.Clear();
+            _lstStudents = lsttemp;
+
+            //Cách 2: Sử dụng sort
+            //_lstStudents.Sort((x,y)=>x.DiemCharp.CompareTo(y.DiemCharp));
+
+        }
     }
 }

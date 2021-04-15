@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAI_TAP_MAU_OOP_CRUD", "BAI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BAI_3.2_XuLyString", "BAI_3.2_XuLyString\BAI_3.2_XuLyString.csproj", "{2993CC91-D1A6-48BC-BECB-89B5055783BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bai_3.3_KeThua", "Bai_3.3_KeThua\Bai_3.3_KeThua.csproj", "{6D20B6A6-E896-4A7E-95E7-D9EAFBE4631C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{2993CC91-D1A6-48BC-BECB-89B5055783BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2993CC91-D1A6-48BC-BECB-89B5055783BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2993CC91-D1A6-48BC-BECB-89B5055783BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D20B6A6-E896-4A7E-95E7-D9EAFBE4631C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D20B6A6-E896-4A7E-95E7-D9EAFBE4631C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D20B6A6-E896-4A7E-95E7-D9EAFBE4631C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D20B6A6-E896-4A7E-95E7-D9EAFBE4631C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
