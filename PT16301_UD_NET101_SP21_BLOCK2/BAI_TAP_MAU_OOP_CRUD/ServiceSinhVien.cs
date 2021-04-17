@@ -154,6 +154,7 @@ namespace BAI_TAP_MAU_OOP_CRUD
         public void sort()
         {
             //Cách 1: Sắp xếp ngầm 1 List
+            //Dùng Linq sẽ không tác động sắp xếp vào List gốc ban đầu được.
             var lsttemp = _lstStudents.OrderBy(c => c.DiemCharp).ToList();
             _lstStudents.Clear();
             _lstStudents = lsttemp;
